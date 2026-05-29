@@ -1,0 +1,36 @@
+TODOS OS ARIMETICOS, RELACIONAIS E LOGICOS NESSA ORDEM
+
+ARITMETICOS
+
+| Operador | Nome             | Exemplo  | Resultado |
+| -------- | ---------------- | -------- | --------- |
+| `+`      | Soma             | `5 + 2`  | `7`       |
+| `-`      | Subtração        | `5 - 2`  | `3`       |
+| `*`      | Multiplicação    | `5 * 2`  | `10`      |
+| `/`      | Divisão          | `10 / 2` | `5`       |
+| `%`      | Resto da divisão | `10 % 3` | `1`       |
+| `**`     | Potência         | `2 ** 3` | `8`       |
+| `++`     | Incremento (+1)  | `x++`    | aumenta 1 |
+| `--`     | Decremento (-1)  | `x--`    | diminui 1 |
+
+RELACIONAIS
+
+| Operador | Significado                  | Exemplo     | Resultado |
+| -------- | ---------------------------- | ----------- | --------- |
+| `>`      | Maior que                    | `10 > 5`    | `true`    |
+| `<`      | Menor que                    | `10 < 5`    | `false`   |
+| `>=`     | Maior ou igual               | `10 >= 10`  | `true`    |
+| `<=`     | Menor ou igual               | `5 <= 2`    | `false`   |
+| `==`     | Igual (valor)                | `5 == "5"`  | `true`    |
+| `===`    | Igual estrito (valor e tipo) | `5 === "5"` | `false`   |
+| `!=`     | Diferente                    | `5 != 3`    | `true`    |
+| `!==`    | Diferente estrito            | `5 !== "5"` | `true`    |
+
+LOGICOS
+
+| Operador | Nome      | Significado                                    | Exemplo           |
+| -------- | --------- | ---------------------------------------------- | ----------------- |
+| `&&`     | E (AND)   | As duas condições precisam ser verdadeiras     | `true && true`    |
+| `\|\|`   | OU (OR)   | Pelo menos uma condição precisa ser verdadeira | `true \|\| false` |
+| `!`      | NÃO (NOT) | Inverte o valor lógico                         | `!true`           |
+
