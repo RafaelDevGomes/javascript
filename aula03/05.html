@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos com DOM</title>
+    <style>
+        body{
+            background-color: aqua;
+            font: normal 20px arial;
+        }
+    </style>
+</head>
+<body>
+       <h1> Iniciando estudos com DOM </h1>
+        <p>aprendendo a usar <strong>DOM</strong></p>
+       <p><div id="msg">clique em mim!</div></p>
+       <p>estou me divertindo muito aprendendo js!</p>
+    </h1>
+    <script>
+    var corpo = window.document.body
+    var p1 = window.document.getElementsByTagName('p')[0]
+    // var d = window.document.getElementById('msg')
+    // d.style.background = 'green'
+    // d.innerText = "estou aguardando..."
+    // var d = window.document.getElementsByName('msg')[0]
+    // d.innerText = 'olá!'
+    var d = window.document.querySelector('div#msg')
+    d.style.background = "blue"
+    
+    </script>
+</body>
+</html>

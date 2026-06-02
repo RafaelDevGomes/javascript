@@ -1,0 +1,6 @@
+operador ternario: false or true
+ oque krls é o dom:?
+
+O DOM (Document Object Model) é a representação em árvore do seu código HTML criada pelo navegador.
+ Ele transforma cada tag HTML em um "objeto" que o JavaScript consegue ler e alterar. Graças ao DOM, 
+você pode mudar textos, cores e elementos da página depois que ela já foi carregada.
