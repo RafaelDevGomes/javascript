@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Sistema de nacionalidade</h1>
+    Nacionalidade do cidadão <input type="text" id="nacio">
+    <input type="button" value="validar" onclick="procurar()">
+    <div id="res"></div>
+
+    <script>
+    function procurar() {
+        var pais = window.document.getElementById('nacio')
+        var res = window.document.getElementById('res')
+        var p = pais.value
+
+        res.innerHTML = `Seu país atual é o ${p}`
+
+        if (p == 'Brasil') {
+            res.innerHTML += ('Você é brasileiro! <br>')
+        } else {
+            res.innerHTML += ('<br>Você é estrangeiro!')
+        }
+}
+    </script>
+</body>
+</html>
