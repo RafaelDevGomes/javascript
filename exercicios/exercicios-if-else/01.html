@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1</title>
+</head>
+<body>
+    <h1>Calculadora de kilometragem</h1>
+    Velocidade do véiculo <br><input type="number" id="vel">
+    <input type="button" value="Verificar" onclick="Calcular()">
+    <div id="resultado"></div>
+
+    <script>
+        function Calcular(){
+            var vel = window.document.getElementById('vel');
+            var resultado = window.document.getElementById('resultado');
+            var velo = Number(vel.value);
+            resultado.innerHTML = `Sua kilometragem é de ${velo} KM/H`;
+            if(velo > 67){
+               resultado.innerHTML += `Você está multado por ultrapassagem da velocidade permitida nesta rodovia.<br>`
+            } else{ 
+                resultado.innerHTML += `<br>Utilize cinto de segurança, segurança NUNCA é demais.`
+            }
+        }
+    </script>
+    
+</body>
+</html>
