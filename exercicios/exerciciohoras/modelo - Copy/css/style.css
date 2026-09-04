@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    color: white;
+}
+section{
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    height: 300px;
+    width: 450px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#teste{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+body{
+    background-color: cadetblue; 
+    font: normal 15pt arial;
+
+}
+

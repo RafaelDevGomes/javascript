@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cadetblue; 
+    font: normal 15pt arial;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    color: white;
+}
+#msg{
+    text-align: center;
+    font: normal 15pt arial;
+}
+img{
+    width: 350px;
+    height: 250px;
+}
+section{
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    padding: 15px;
+    border-radius: 10px;
+}
+#teste{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+footer{
+    margin-top: 2%;
+    text-align: center;
+}
+
+
