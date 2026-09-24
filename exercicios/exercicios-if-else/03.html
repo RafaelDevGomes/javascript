@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+</head>
+<body>
+    
+       <script>
+        prompt("1: Você deseja cadastrar uma conta ou 2: já tem login e deseja ir direto? ")
+        let op = prompt("Entre com a opçao desejada:");
+        switch(op) {
+            case "1":
+                alert("Você escolheu cadastrar uma conta.");
+                let nome =  prompt("Digite seu nome: ");
+                prompt("Digite seu email: ");
+                prompt("Digite sua senha: ");
+                alert(`Bem vindo! ${nome}`);
+                break;
+            case "2":
+                let nome1 = prompt("Digite seu nome para acesso a sua conta: ");
+                alert(`Bem vindo de volta! ${nome}`);
+                break;
+            default:
+                alert("ERRO");
+        }
+
+
+       </script>
+
+</body>
+</html>
